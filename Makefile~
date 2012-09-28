@@ -1,0 +1,25 @@
+# La siguiente no es necesariamente requerida, se agrega para
+# mostrar como funciona.
+
+# Macros
+
+CC = g++
+CC2 = clear;
+CFLAGS = -Wall -I . -Wno-deprecated 
+#-Wno-deprecated es para la libreria boost
+SRC_FILES = euler.cpp eu_write_table.cpp infinite_precition.cpp eu0078.cpp
+# SRC_FILES = euler.cpp eu0001.cpp eu0002.cpp eu0003.cpp eu0004.cpp eu0005.cpp eu0006.cpp eu0007.cpp eu0008.cpp eu0009.cpp eu0010.cpp eu0011.cpp eu0012.cpp eu0013.cpp eu0014.cpp eu0015.cpp eu0016.cpp eu0017.cpp eu0018.cpp eu0019.cpp eu0020.cpp eu0021.cpp eu0022.cpp eu0023.cpp eu0024.cpp eu0025.cpp eu0026.cpp eu0027.cpp eu0028.cpp eu0029.cpp eu0030.cpp eu0031.cpp eu0032.cpp eu0033.cpp eu0034.cpp eu0035.cpp eu0036.cpp eu0037.cpp eu0038.cpp eu0039.cpp eu0040.cpp eu0041.cpp eu0042.cpp eu0043.cpp eu0044.cpp eu0045.cpp eu0046.cpp eu0047.cpp eu0048.cpp eu0049.cpp eu0050.cpp eu0051.cpp eu0052.cpp eu0053.cpp eu0054.cpp eu0055.cpp eu0056.cpp eu0057.cpp eu0058.cpp eu0059.cpp eu0060.cpp eu0061.cpp eu0062.cpp eu0063.cpp eu0064.cpp eu0065.cpp eu0066.cpp eu0067.cpp eu0068.cpp eu0069.cpp eu0070.cpp eu0071.cpp eu0072.cpp eu0073.cpp eu0074.cpp eu0075.cpp eu0076.cpp eu0077.cpp eu0078.cpp eu0079.cpp eu0080.cpp eu0081.cpp eu0082.cpp eu0083.cpp eu0084.cpp eu0085.cpp eu0086.cpp eu0087.cpp eu0088.cpp eu0089.cpp eu0090.cpp eu0091.cpp eu0092.cpp eu0093.cpp eu0094.cpp eu0095.cpp eu0096.cpp eu0097.cpp eu0098.cpp eu0099.cpp eu0100.cpp eu0101.cpp eu0102.cpp eu0103.cpp eu0104.cpp eu0105.cpp eu0106.cpp eu0107.cpp eu0108.cpp eu0109.cpp eu0110.cpp eu0111.cpp eu0112.cpp eu0113.cpp eu0114.cpp eu0115.cpp eu0116.cpp eu0117.cpp eu0118.cpp eu0119.cpp eu0120.cpp eu0121.cpp eu0122.cpp eu0123.cpp eu0124.cpp eu0125.cpp eu0126.cpp eu0127.cpp eu0128.cpp eu0129.cpp eu0130.cpp eu0131.cpp eu0132.cpp eu0133.cpp eu0134.cpp eu0135.cpp eu0136.cpp eu0137.cpp eu0138.cpp eu0139.cpp eu0140.cpp eu0141.cpp eu0142.cpp eu0143.cpp eu0144.cpp eu0145.cpp eu0146.cpp eu0147.cpp eu0148.cpp eu0149.cpp eu0150.cpp eu0151.cpp eu0152.cpp eu0153.cpp eu0154.cpp eu0155.cpp eu0156.cpp eu0157.cpp eu0158.cpp eu0159.cpp eu0160.cpp eu0161.cpp eu0162.cpp eu0163.cpp eu0164.cpp eu0165.cpp eu0166.cpp eu0167.cpp eu0168.cpp eu0169.cpp eu0170.cpp eu0171.cpp eu0172.cpp eu0173.cpp eu0174.cpp eu0175.cpp eu0176.cpp eu0177.cpp eu0178.cpp eu0179.cpp eu0180.cpp eu0181.cpp eu0182.cpp eu0183.cpp eu0184.cpp eu0185.cpp eu0186.cpp eu0187.cpp eu0188.cpp eu0189.cpp eu0190.cpp eu0191.cpp eu0192.cpp eu0193.cpp eu0194.cpp eu0195.cpp eu0196.cpp eu0197.cpp eu0198.cpp eu0199.cpp eu0200.cpp eu0201.cpp eu0202.cpp eu0203.cpp eu0204.cpp eu0205.cpp eu0206.cpp eu0207.cpp eu0208.cpp eu0209.cpp eu0210.cpp eu0211.cpp eu0212.cpp eu0213.cpp eu0214.cpp eu0215.cpp eu0216.cpp eu0217.cpp eu0218.cpp eu0219.cpp eu0220.cpp eu0221.cpp eu0222.cpp eu0223.cpp eu0224.cpp eu0225.cpp eu0226.cpp eu0227.cpp eu0228.cpp eu0229.cpp eu0230.cpp eu0231.cpp eu0232.cpp eu0233.cpp eu0234.cpp eu0235.cpp eu0236.cpp eu0237.cpp eu0238.cpp eu0239.cpp eu0240.cpp eu0241.cpp eu0242.cpp eu0243.cpp eu0244.cpp eu0245.cpp eu0246.cpp eu0247.cpp eu0248.cpp eu0249.cpp eu0250.cpp eu0251.cpp eu0252.cpp eu0253.cpp eu0254.cpp eu0255.cpp eu0256.cpp eu0257.cpp eu0258.cpp eu0259.cpp eu0260.cpp eu0261.cpp eu0262.cpp eu0263.cpp eu0264.cpp eu0265.cpp eu0266.cpp eu0267.cpp eu0268.cpp eu0269.cpp eu0270.cpp eu0271.cpp eu0272.cpp eu0273.cpp eu0274.cpp eu0275.cpp eu0276.cpp eu0277.cpp eu0278.cpp eu0279.cpp eu0280.cpp eu0281.cpp eu0282.cpp eu0283.cpp eu0284.cpp eu0285.cpp eu0286.cpp eu0287.cpp eu0288.cpp eu0289.cpp eu0290.cpp eu0291.cpp eu0292.cpp eu0293.cpp eu0294.cpp eu0295.cpp eu0296.cpp eu0297.cpp eu0298.cpp eu0299.cpp eu0300.cpp eu0301.cpp eu0302.cpp eu0303.cpp eu0304.cpp eu0305.cpp eu0306.cpp eu0307.cpp eu0308.cpp eu0309.cpp eu0310.cpp eu0311.cpp eu0312.cpp eu0313.cpp eu0314.cpp eu0315.cpp eu0316.cpp eu0317.cpp eu0318.cpp eu0319.cpp eu0320.cpp eu0321.cpp eu0322.cpp eu0323.cpp eu0324.cpp eu0325.cpp eu0326.cpp eu0327.cpp eu0328.cpp eu0329.cpp eu0330.cpp eu0331.cpp eu0332.cpp eu0333.cpp eu0334.cpp eu0335.cpp eu0336.cpp eu0337.cpp eu0338.cpp eu0339.cpp eu0340.cpp eu0341.cpp eu0342.cpp eu0343.cpp eu0344.cpp eu0345.cpp eu0346.cpp eu0347.cpp eu0348.cpp eu0349.cpp eu0350.cpp eu0351.cpp eu0352.cpp eu0353.cpp eu0354.cpp eu0355.cpp eu0356.cpp eu0357.cpp eu0358.cpp eu0359.cpp eu0360.cpp eu0361.cpp eu0362.cpp eu0363.cpp eu0364.cpp eu0365.cpp eu0366.cpp eu0367.cpp eu0368.cpp eu0369.cpp eu0370.cpp eu0371.cpp eu0372.cpp eu0373.cpp eu0374.cpp eu0375.cpp eu0376.cpp eu0377.cpp eu0378.cpp eu0379.cpp eu0380.cpp eu0381.cpp eu0382.cpp eu0383.cpp eu0384.cpp eu0385.cpp eu0386.cpp eu0387.cpp eu0388.cpp eu0389.cpp eu0390.cpp eu0391.cpp eu0392.cpp eu0393.cpp eu0394.cpp eu0395.cpp eu0396.cpp eu0397.cpp eu0398.cpp eu0399.cpp eu0400.cpp
+
+OBJ_LIBS = $(SRC_FILES:%.cpp=%.o)
+
+
+# Reglas explicitas
+all: main.cpp $(OBJ_LIBS) 
+	#$(CC2) $(CC) -L/usr/lib/atlas/sse2 -llapack -lblas $(CFLAGS) -o main main.cpp $(OBJ)
+	clear; $(CC2) $(CC) $(CFLAGS) -fopenmp -o mainx main.cpp  $(OBJ_LIBS)
+	
+$(OBJ_LIBS):$(SRC_FILES)
+	$(CC) $(CFLAGS) -c $(SRC_FILES)
+
+clean:
+	rm $(OBJ_LIBS) mainx *~
